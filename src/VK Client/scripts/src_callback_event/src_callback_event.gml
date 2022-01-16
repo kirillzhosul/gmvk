@@ -2,7 +2,7 @@
 // @author Kirill Zhosul (@kirillzhosul)
 
 
-function sPublisher() constructor{
+function Publisher() constructor{
 	// Implements simple Publisher - Subscriber pattern.
 	
 	// Subscribed callback functions.

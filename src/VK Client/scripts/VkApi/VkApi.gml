@@ -64,7 +64,7 @@ function VkApi() constructor{
 	self.auth = new VkApiAuthProvider();
 
 	// Publishers.
-	self.on_result = new sPublisher();
+	self.on_result = new Publisher();
 
 	self.http_request_callback = function(request_raw){
 		// @description HTTP request response callback.

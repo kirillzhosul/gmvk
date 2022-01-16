@@ -41,7 +41,7 @@
 // 3. All done, provider will query all, and notify `on_update`
 function VkApiLongpollProvider() constructor{
 	// Publisher, will be notified for every new longpoll update on server.
-	self.on_update = new sPublisher();
+	self.on_update = new Publisher();
 	
 	self.start = function(access_token, mode, version){
 		// @description Starts longpoll, by requesting server and then requesting new updates.

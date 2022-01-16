@@ -55,7 +55,7 @@
 // main features to work with VK auth.
 function VkApiAuthProvider() constructor{
 	// Publisher, will be notified for auth failed / success.
-	self.on_auth = new sPublisher();
+	self.on_auth = new Publisher();
 
 	self.auth_direct = function (login, password){
 		// @description Auth direct with your login and password.

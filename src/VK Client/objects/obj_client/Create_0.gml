@@ -248,7 +248,7 @@ function client_register_callbacks(){
 	
 	self.api.auth.on_auth.subscribe(client_on_auth);
 	self.api.on_result.subscribe(client_on_result);
-	self.on_raw = new sPublisher();
+	self.on_raw = new Publisher();
 	self.on_raw.subscribe(client_on_raw);
 	self.api.longpoll.on_update.subscribe(client_on_longpoll);
 	print("Successfully subscribed on event callbacks!");
