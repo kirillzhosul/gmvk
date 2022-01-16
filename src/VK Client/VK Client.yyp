@@ -1,8 +1,19 @@
 {
   "resources": [
-    {"id":{"name":"obj_client","path":"objects/obj_client/obj_client.yy",},"order":1,},
-    {"id":{"name":"src_client","path":"scripts/src_client/src_client.yy",},"order":3,},
-    {"id":{"name":"rm_client","path":"rooms/rm_client/rm_client.yy",},"order":2,},
+    {"id":{"name":"VkApi","path":"scripts/VkApi/VkApi.yy",},"order":0,},
+    {"id":{"name":"src_page","path":"scripts/src_page/src_page.yy",},"order":2,},
+    {"id":{"name":"src_cache","path":"scripts/src_cache/src_cache.yy",},"order":4,},
+    {"id":{"name":"HTTP","path":"scripts/HTTP/HTTP.yy",},"order":0,},
+    {"id":{"name":"obj_client","path":"objects/obj_client/obj_client.yy",},"order":3,},
+    {"id":{"name":"VkApiLongpoll","path":"scripts/VkApiLongpoll/VkApiLongpoll.yy",},"order":1,},
+    {"id":{"name":"VkApiAuth","path":"scripts/VkApiAuth/VkApiAuth.yy",},"order":2,},
+    {"id":{"name":"fnt_client_default","path":"fonts/fnt_client_default/fnt_client_default.yy",},"order":0,},
+    {"id":{"name":"Utils","path":"scripts/Utils/Utils.yy",},"order":2,},
+    {"id":{"name":"src_callback_event","path":"scripts/src_callback_event/src_callback_event.yy",},"order":5,},
+    {"id":{"name":"fnt_client_small","path":"fonts/fnt_client_small/fnt_client_small.yy",},"order":1,},
+    {"id":{"name":"Debug","path":"scripts/Debug/Debug.yy",},"order":3,},
+    {"id":{"name":"src_interface","path":"scripts/src_interface/src_interface.yy",},"order":6,},
+    {"id":{"name":"application","path":"rooms/application/application.yy",},"order":2,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -19,9 +30,16 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_client","path":"rooms/rm_client/rm_client.yy",},},
+    {"roomId":{"name":"application","path":"rooms/application/application.yy",},},
   ],
-  "Folders": [],
+  "Folders": [
+    {"folderPath":"folders/Structures.yy","order":0,"resourceVersion":"1.0","name":"Structures","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Structures/Fonts.yy","order":1,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Source/Standalone/VK API.yy","order":0,"resourceVersion":"1.0","name":"VK API","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Source/Standalone/HTTP.yy","order":1,"resourceVersion":"1.0","name":"HTTP","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Source.yy","order":1,"resourceVersion":"1.0","name":"Source","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Source/Standalone.yy","order":3,"resourceVersion":"1.0","name":"Standalone","tags":[],"resourceType":"GMFolder",},
+  ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],

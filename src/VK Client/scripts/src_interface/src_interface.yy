@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "VK Client",
-    "path": "VK Client.yyp",
+    "name": "Structures",
+    "path": "folders/Structures.yy",
   },
   "resourceVersion": "1.0",
-  "name": "src_client",
+  "name": "src_interface",
   "tags": [],
   "resourceType": "GMScript",
 }

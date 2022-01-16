@@ -1,4 +1,3 @@
-/// @description Draw.
+/// @description ...
 // @author Kirill Zhosul (@kirillzhosul)
-
-event_draw();
+debug_free();
